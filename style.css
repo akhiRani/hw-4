@@ -1,0 +1,36 @@
+*{
+margin: 0;
+padding: 0;
+outline: 0;
+box-sizing: border-box;
+}
+div h1{
+    color: blue;
+    background-color: bisque;
+    text-align: center;
+    width: 55%;
+    text-decoration:black;
+    text-decoration-color: beige;
+    text-decoration-style:wavy;
+    
+
+}
+div h2{
+    color: orangered;
+    font-size: 50px;
+
+}
+p{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    text-align-last: center;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+p::first-letter{
+    font-size: 50px;
+    color: black;
+}
